@@ -1,0 +1,155 @@
+{
+    "134ES" : {
+        "comments" : "I'm a TU student.",
+        "mail" : "example1@campus.tu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud1"
+    },
+    "209ES" : {
+        "comments" : "",
+        "mail" : "example2@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 2,
+        "seminar C" : 2,
+        "student" : "Example Stud2"
+    },
+    "406ES" : {
+        "comments" : "",
+        "mail" : "example3@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud3"
+    },
+    "976ES" : {
+        "comments" : "",
+        "mail" : "example4@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud4"
+    },
+    "901ES" : {
+        "comments" : "",
+        "mail" : "example5@fu-berlin.de",
+        "neededSeminars" : 1,
+        "seminar A" : 0,
+        "seminar B" : 2,
+        "seminar C" : 2,
+        "student" : "Example Stud5"
+    },
+    "146ES" : {
+        "comments" : "",
+        "mail" : "example6@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 0,
+        "seminar C" : 2,
+        "student" : "Example Stud6"
+    },
+    "378ES" : {
+        "comments" : "",
+        "mail" : "example7@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud7"
+    },
+    "982ES" : {
+        "comments" : "",
+        "mail" : "example8@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 0,
+        "seminar C" : 0,
+        "student" : "Example Stud8"
+    },
+    "666ES" : {
+        "comments" : "",
+        "mail" : "example9@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud9"
+    },
+    "933ES" : {
+        "comments" : "",
+        "mail" : "example10@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 1,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud10"
+    },
+    "453ES" : {
+        "comments" : "",
+        "mail" : "example11@fu-berlin.de",
+        "neededSeminars" : 1,
+        "seminar A" : 0,
+        "seminar B" : 0,
+        "seminar C" : 2,
+        "student" : "Example Stud11"
+    },
+    "829ES" : {
+        "comments" : "Prüfung in Allgemeine Psychologie noch nicht bestanden.",
+        "mail" : "example12@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 1,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud12"
+    },
+    "546ES" : {
+        "comments" : "",
+        "mail" : "example13@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud13"
+    },
+    "416ES" : {
+        "comments" : "",
+        "mail" : "example14@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 0,
+        "seminar B" : 2,
+        "seminar C" : 2,
+        "student" : "Example Stud14"
+    },
+    "111ES" : {
+        "comments" : "",
+        "mail" : "example15@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 1,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud15"
+    },
+    "242ES" : {
+        "comments" : "",
+        "mail" : "example16@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 1,
+        "seminar C" : 2,
+        "student" : "Example Stud16"
+    },
+    "936ES" : {
+        "comments" : "",
+        "mail" : "example17@fu-berlin.de",
+        "neededSeminars" : 2,
+        "seminar A" : 2,
+        "seminar B" : 0,
+        "seminar C" : 2,
+        "student" : "Example Stud17"
+    }
+}

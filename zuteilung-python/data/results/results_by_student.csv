@@ -1,0 +1,18 @@
+	comments	mail	neededSeminars	seminar A	seminar B	seminar C	student	inSeminar	openSeminars	totalGivenPriorities
+982ES		example8@fu-berlin.de	2	2	0	0	Example Stud8	['seminar A', 'seminar B']	0	2
+146ES		example6@fu-berlin.de	2	0	0	2	Example Stud6	['seminar C', 'seminar A']	0	2
+936ES		example17@fu-berlin.de	2	2	0	2	Example Stud17	['seminar A', 'seminar C']	0	4
+976ES		example4@fu-berlin.de	2	0	1	2	Example Stud4	['seminar C', 'seminar B']	0	3
+406ES		example3@fu-berlin.de	2	0	1	2	Example Stud3	['seminar C', 'seminar B']	0	3
+378ES		example7@fu-berlin.de	2	0	1	2	Example Stud7	['seminar C', 'seminar B']	0	3
+546ES		example13@fu-berlin.de	2	2	1	2	Example Stud13	['seminar A', 'seminar C']	0	4
+453ES		example11@fu-berlin.de	1	0	0	2	Example Stud11	['seminar C']	0	2
+134ES	I'm a TU student.	example1@campus.tu-berlin.de	2	2	1	2	Example Stud1	['seminar A', 'seminar C']	0	4
+933ES		example10@fu-berlin.de	2	1	1	2	Example Stud10	['seminar C', 'seminar A']	0	3
+242ES		example16@fu-berlin.de	2	2	1	2	Example Stud16	['seminar A', 'seminar C']	0	4
+209ES		example2@fu-berlin.de	2	2	2	2	Example Stud2	['seminar A', 'seminar B']	0	4
+111ES		example15@fu-berlin.de	2	1	1	2	Example Stud15	['seminar C', 'seminar A']	0	3
+829ES	PrÃ¼fung in Allgemeine Psychologie noch nicht bestanden.	example12@fu-berlin.de	2	1	1	2	Example Stud12	['seminar C', 'seminar A']	0	3
+416ES		example14@fu-berlin.de	2	0	2	2	Example Stud14	['seminar B', 'seminar C']	0	4
+666ES		example9@fu-berlin.de	2	0	1	2	Example Stud9	['seminar C', 'seminar B']	0	3
+901ES		example5@fu-berlin.de	1	0	2	2	Example Stud5	['seminar B']	0	2
