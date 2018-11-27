@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Seminarwahl: AB Allgemeine und Neurokognitive Psychologie</title>
+	  <link rel="shortcut icon" type="image/png" href="img/faviconfu.ico">
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/mystyle.css" type="text/css" rel="stylesheet"/>
+   </head>
+	
+   <body lang="de" class="hyphen">
+	   
+      <nav class="light-green lighten-1" role="navigation">
+         <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo center">
+            <img src="img/fu.png" style="height: 50px; margin-top: 4px">
+            </a>
+         </div>
+      </nav>
+      <div class="section no-pad-bot" id="index-banner">
+         <div class="container">
+            <h1 class="header center light-green-text">Seminarwahl:<br>Neurokognitive Psychologie</h1>
+         </div>
+      </div>
+      <br>
+	   
+      <div class="container">
+         <form class="col s12" method="post">
+            <div>
+               <h2 class="header orange-text">1. Seminarwahl</h2>
+               <h3 class="header orange-text text-lighten-2">Welche Seminare möchten Sie am liebsten belegen?</h3>
+				<div>
+					Legen Sie Ihre
+					<div class="tooltip">Prioritäten
+  						<span class="tooltiptext">
+						Sie können zwischen 
+						<div style="margin: 5px">
+							<span class="check"></span>
+							<span class="legCheckbox greenText">(Das möchte ich.)</span>
+							<br>
+							<span class="impossible"></span>
+							<span class="legCheckbox redText">(Das möchte ich nicht.)</span>
+							<br>
+							<span class="dontcare"></span>
+							<span class="legCheckbox greyText">(Das ist mir egal.)</span>
+						</div>
+						auswählen.</span>
+					</div> 
+					fest, indem Sie auf die Kästchen klicken. 
+				</div>
+               <table id="seminarList">
+                  <tr>
+                     <td style="width: 35px; display: inline-block">
+                        <span class="dontcare" id="sem1"></span>
+                     </td>
+                     <td>
+                        <span class="checkText">Neurokognition der Sprache - Sprach&shy;entwicklung und Sprach&shy;verarbeitung (Neuro&shy;cognition of Language: Language development and Comprehension)</span>
+                     </td>
+                     <td>
+                        <span class="checkText">Johanna Liebig</span>
+                     </td>
+                     <td>
+                        <span class="checkText">
+                        Dienstag, 14-16 Uhr
+                        </span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="width: 35px; display: inline-block">
+                        <span class="dontcare" id="sem2"></span>
+                     </td>
+                     <td>
+                        <span class="checkText">Geschlechts&shy;unterschiede in den Neuro&shy;wissenschaften - Befunde, Methoden, Interpretations&shy;ansätze (Sex and Gender in Neuroscience - Results, Methods, and Interpretations)</span>
+                     </td>
+                     <td>
+                        <span class="checkText">Eva Fröhlich</span>
+                     </td>
+                     <td>
+                        <span class="checkText">
+                        Mittwoch, 14-16 Uhr
+                        </span>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td style="width: 35px; display: inline-block">
+                        <span class="dontcare" id="sem3"></span>
+                     </td>
+                     <td>
+                        <span class="checkText">Neuro&shy;kognitive Poetik (Neurocognitive Poetics)</span>
+                     </td>
+                     <td>
+                        <span class="checkText">Arthur Jacobs</span>
+                     </td>
+                     <td>
+                        <span class="checkText">
+                        Mittwoch, 16-18 Uhr
+                        </span>
+                     </td>
+                  </tr>
+               </table>
+               <h3 class="header orange-text text-lighten-2">Wie viele Seminare möchten Sie in diesem Semester belegen?</h3>
+               <p>
+                  <label for="eins">
+                  <input name="neededSeminars" id="eins" type="radio" value="1" required/>
+                  <span>Ein Seminar</span>
+                  </label>
+               </p>
+               <p>
+                  <label for="zwei">
+                  <input name="neededSeminars" id="zwei" type="radio" value="2" required/>
+                  <span>Zwei Seminare</span>
+                  </label>
+               </p>
+            </div>
+            <br>
+            <div>
+               <h2 class="header orange-text">2. Persönliche Daten</h2>
+               <div class="row">
+                  <div class="input-field col s6">
+                     <input id="first_name" type="text" class="validate" required>
+                     <label for="first_name">Vorname</label>
+                  </div>
+                  <div class="input-field col s6">
+                     <input id="last_name" type="text" class="validate" required>
+                     <label for="last_name">Nachname</label>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="input-field col s12">
+                     <input id="email" type="email" class="validate" required>
+                     <label for="email">E-Mail</label>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="input-field col s12">
+                     <textarea id="comments" class="materialize-textarea"></textarea>
+                     <label for="comments">Kommentare</label>
+                  </div>
+               </div>
+            </div>
+            <div class="row center">
+               <button class="btn orange waves-effect waves-light" id="send" type="submit">
+               Senden
+               <i class="material-icons right">send</i>
+               </button>
+            </div>
+         </form>
+      </div>
+	   
+      <div class="check_mark" id="success">
+         <div class="sa-icon sa-success hide animate scale-transition">
+            <span class="sa-line sa-tip animateSuccessTip"></span>
+            <span class="sa-line sa-long animateSuccessLong"></span>
+            <div class="sa-placeholder"></div>
+            <div class="sa-fix"></div>
+         </div>
+      </div>
+      <br>
+      <br>
+      <footer class="page-footer light-green">
+         <div class="container">
+            <div class="row">
+               <div class="col l12 s12">
+                  <h5 class="white-text">Seminarwahl</h5>
+                  <p class="grey-text text-lighten-4">This is a prototype for a seminar selection tool. Feedback is greatly appreciated!
+                     <br>
+                     <br>
+                     <i class="material-icons">mail</i>
+                     <a href="mailto:clarissa.staudt@web.de" style="color:#f1f8e9; position: relative; bottom: 8px;">Just write me an email.</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="footer-copyright">
+            <div class="container">
+               © 2018, Clarissa Staudt
+            </div>
+         </div>
+      </footer>
+	    
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+      <script src="js/forms.js"></script>
+   </body>
+	
+</html>
